@@ -1,0 +1,19 @@
+{
+    "local_ip": "http://192.168.X.X",
+    "local_port": "8000",
+
+    "global": "https://<address>",
+
+    "dir": [
+        {
+            "auth/Auth": "/auth?user_name=",
+
+            "upload": "/upload",
+            "fetchFiles": "/api/files",
+
+            "settings/storage_space": "/disk-info"
+        }
+    ],
+
+    "host": "local or global"
+}
